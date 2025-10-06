@@ -1,0 +1,70 @@
+:root{
+    --dark-red: #780000;
+    --light-red: #c1121f;
+    --beige: #fdf0d5;
+    --dark-blue: #003049;
+    --light-blue: #669bbc;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--dark-blue);
+    padding: 50px 80px;
+    border: 5px solid var(--beige);
+    border-radius: 10px;
+    color: var(--beige);
+}
+
+.score-title{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.score-result {
+    font-family: "Oxanium", sans-serif;
+    font-size: 2rem;
+    background-color: black;
+    color: var(--light-red);
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.btn-section {
+    margin-top: 25px;
+}
+.score-btn, #reset-btn {
+    background-color: var(--dark-blue);
+    color: var(--beige);
+    border: 1px solid var(--beige);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Oxanium", sans-serif;
+    cursor: pointer;
+}
+
+#reset-btn {
+    margin-top: 15px;
+    background-color: var(--dark-red);
+    border: 1px solid var(--beige);
+    padding: 8px 20px;
+}
+
+.score-btn:hover {
+    background-color: var(--light-blue);
+    color: black;
+    border: 1px solid black;
+}
